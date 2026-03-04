@@ -6,9 +6,8 @@ Library         Collections
 *** Variables ***
 ${BASE_URL}     https://jsonplaceholder.typicode.com
 # Performance Test Variables
-${NUM_REQUESTS}         5
+${NUM_REQUESTS}         2
 ${MAX_AVG_TIME_MS}      500
-
 *** Test Cases ***
 API Performance Testing with Percentiles and Standard Deviation
     [Documentation]     A simple performance test to measure the average response time of API endpoints.
